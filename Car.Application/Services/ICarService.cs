@@ -5,7 +5,7 @@ namespace Car.Application.Services
 {
     public interface ICarService
     {
-        public ValueTask<bool> CreateCarAsync(CarDto carDto);
+        public ValueTask<string> CreateCarAsync(CarDto carDto);
         public ValueTask<List<Cars>> GetAllAsync();
         public ValueTask<Cars> GetByIdAsync(int id);
         public ValueTask<string> DeleteByIdAsync(int id);
