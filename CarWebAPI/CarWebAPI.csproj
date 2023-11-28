@@ -17,4 +17,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Car.Application\Car.Application.csproj" />
+  </ItemGroup>
+
 </Project>
