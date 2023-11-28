@@ -8,7 +8,10 @@
 
   <ItemGroup>
     <Folder Include="DTOs\" />
-    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\School.Infrastructure\School.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
